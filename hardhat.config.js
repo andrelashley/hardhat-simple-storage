@@ -1,6 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox")
 require("dotenv").config()
 require("./tasks/block-number")
+require("solidity-coverage")
 
 /** @type import('hardhat/config').HardhatUserConfig */
 
